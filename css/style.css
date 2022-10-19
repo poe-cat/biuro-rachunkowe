@@ -369,6 +369,40 @@ p {
     text-decoration: underline;
 }
 
+.footer .footer-container .box-container .box .hoursContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap:1.5rem;
+    -webkit-columns: 40px 2;
+    /* Chrome, Safari, Opera */
+    -moz-columns: 60px 2;
+    /* Firefox */
+    columns: 60px 2;
+}
+
+.footer .footer-container .box-container .box .hours {
+    display: block;
+    font-size: 1.5rem;
+    color:#666;
+    text-decoration: none;
+
+}
+
+.footer .footer-container .box-container .box .hours2 {
+    display: block;
+    font-size: 1.5rem;
+    color:#666;
+    text-decoration: none;
+    margin-left: auto;
+}
+.footer .footer-container .box-container .box .hours:hover {
+    text-decoration: none;
+}
+
+.footer .footer-container .box-container .box .hours2:hover {
+    text-decoration: none;
+}
+
 .footer .footer-container .credit {
     margin-top: 2rem;
     padding:.5rem;
